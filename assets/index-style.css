@@ -1193,6 +1193,11 @@ header .nav-list {
 
   /*INTRO*/
 
+  section#intro .container {
+    width: 380px;
+    margin-left: 5px;
+    background-color: #fff;
+  }
   section#intro {
     height: auto;
   }
@@ -1202,6 +1207,12 @@ header .nav-list {
   }
 
   /*Features*/
+
+  section#features .container {
+    width: 380px;
+    margin-left: 5px;
+    background-color: #fff;
+  }
 
   section#features {
     height: auto;
