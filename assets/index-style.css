@@ -97,6 +97,14 @@ header .get-started {
   margin-right: 10px;
 }
 
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu-icon #toggle-menu {
+  display: none;
+}
+
 .logo span {
   color: var(--primary-color);
 }
@@ -1144,6 +1152,26 @@ header .nav-list {
     display: none;
   }
 
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  #toggle-menu {
+    display: none;
+  }
+
+  .get-started {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    margin-right: 30px;
+    font-size: 25px;
+  }
+
+  .mobile-menu-icon:hover {
+    color: var(--primary-color);
+  }
   .container {
     width: 98%;
     margin: 0 auto;
