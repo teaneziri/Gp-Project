@@ -19,6 +19,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
 
 header {
   height: 85px;
@@ -482,12 +489,12 @@ section#services .card {
   border-radius: 3px;
 }
 .links .active,
-li:hover {
+.container .links a:hover {
   color: #151515;
   background: #ffc451;
 }
 
-.links li:hover {
+section#portofolio li:hover {
   padding: 8px 15px 10px 15px;
   background: #ffc451;
 }

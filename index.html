@@ -571,5 +571,24 @@
           </div>
       </div>
   </footer>
+
+  <script>
+    const nav = document.querySelector('.wrapper')
+    const gtt = document.querySelector('.go-to-top')
+
+    window.addEventListener('scroll', function(e) {
+        if(this.scrollY >= 65) {
+            nav.classList.add('sticky-nav')
+        } else {
+            nav.classList.remove('sticky-nav')
+        }
+
+        if(this.scrollY >= 465) {
+            gtt.style.display = 'block'
+        } else {
+            gtt.style.display = 'none'
+        }
+    })
+</script>
   </body>
 </html>
