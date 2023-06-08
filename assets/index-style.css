@@ -159,7 +159,7 @@ header .get-started {
 }
 
 #main .main-text {
-  margin-left: 500px;
+  margin-left: 360px;
   margin-top: 110px;
 }
 
@@ -260,7 +260,7 @@ section#intro p {
 #clients-section {
   padding: 15px 0;
   text-align: center;
-  height: 150px;
+  height: auto;
   background-color: #fff;
 }
 
@@ -269,7 +269,7 @@ section#intro p {
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 35%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1232,7 +1232,15 @@ header .nav-list {
   section#features .container {
     grid-template-columns: 1fr;
   }
+  /*CLIENTS*/
 
+  section#clients-section .clients {
+    flex-direction: column;
+  }
+
+  .clients img {
+    max-width: 25%;
+  }
   /*services*/
   section#services .reasons {
     grid-template-columns: 1fr;
